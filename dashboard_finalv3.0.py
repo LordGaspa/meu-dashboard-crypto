@@ -1,4 +1,4 @@
- -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 # ----------------------------------------------------------------------------
 # CÓDIGO ÔMEGA - VERSÃO ABSOLUTA (v8 com API Keys)
 #
@@ -461,3 +461,4 @@ else:
                 st.dataframe(df_formatado, use_container_width=True, hide_index=True)
             else:
                 st.info("Nenhum trade completo foi realizado no período analisado.")
+
